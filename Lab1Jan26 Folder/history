@@ -53,3 +53,26 @@
   	Time to complete: 00:00:00
   	Sweep range: 86 - 95
 兄avePICT/E=-6/B=288
+乍dit Avg_ad1_6_15,Avg_ad1_16_25,Avg_ad1_26_35,Avg_ad1_36_45,Avg_ad1_46_55;DelayUpdate
+丕ppendToTable Avg_ad1_56_65,Avg_ad1_66_75,Avg_ad1_76_85,Avg_ad1_86_95
+主isplay Avg_ad1_6_15
+乍dit
+主isplay Avg_ad1_6_15
+兄howInfo
+主isplay Avg_ad1_16_25
+兄howInfo
+主isplay Avg_ad1_26_35
+兄howInfo
+主isplay Avg_ad1_36_45
+兄howInfo
+主isplay Avg_ad1_46_55
+主isplay Avg_ad1_56_65
+兄howInfo
+主isplay Avg_ad1_66_75
+兄howInfo
+主isplay Avg_ad1_76_85
+兄howInfo
+主isplay Avg_ad1_86_95
+兄howInfo
+充ename wave0,'Current (pA)'; 
+充ename wave1,'Voltage (mV)'; 
