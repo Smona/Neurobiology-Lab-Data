@@ -76,3 +76,106 @@
 ¥ShowInfo
 ¥Rename wave0,'Current (pA)'; 
 ¥Rename wave1,'Voltage (mV)'; 
+¥Display 'Current (pA)' vs 'Voltage (mV)'
+¥ShowInfo
+¥CurveFit/NTHR=0 exp_XOffset  'Voltage (mV)'[pcsr(B),pcsr(A)] /X='Current (pA)' /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	'Voltage (mV)'[0,8]
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*exp(-(x-W_fitConstants[0])/W_coef[2])
+  W_coef={0.52106,-1.0535,130.08}
+  W_fitConstants={-100}
+  V_chisq= 0.0186005;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;
+  W_sigma={0.185,0.168,44.8}
+  Coefficient values ± one standard deviation
+  	y0 	=0.52106 ± 0.185
+  	A  	=-1.0535 ± 0.168
+  	tau	=130.08 ± 44.8
+  Constant:
+  	X0	=-100
+¥CurveFit/NTHR=0/TBOX=768 exp_XOffset  'Voltage (mV)'[pcsr(B),pcsr(A)] /X='Current (pA)' /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	'Voltage (mV)'[0,8]
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*exp(-(x-W_fitConstants[0])/W_coef[2])
+  W_coef={0.52106,-1.0535,130.08}
+  W_fitConstants={-100}
+  V_chisq= 0.0186005;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;
+  W_sigma={0.185,0.168,44.8}
+  Coefficient values ± one standard deviation
+  	y0 	=0.52106 ± 0.185
+  	A  	=-1.0535 ± 0.168
+  	tau	=130.08 ± 44.8
+  Constant:
+  	X0	=-100
+¥CurveFit/NTHR=0/TBOX=768 exp_XOffset  'Voltage (mV)'[pcsr(B),pcsr(A)] /X='Current (pA)' /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	'Voltage (mV)'[0,8]
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*exp(-(x-W_fitConstants[0])/W_coef[2])
+  W_coef={0.52106,-1.0535,130.08}
+  W_fitConstants={-100}
+  V_chisq= 0.0186005;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;
+  W_sigma={0.185,0.168,44.8}
+  Coefficient values ± one standard deviation
+  	y0 	=0.52106 ± 0.185
+  	A  	=-1.0535 ± 0.168
+  	tau	=130.08 ± 44.8
+  Constant:
+  	X0	=-100
+¥CurveFit/NTHR=0/TBOX=768 exp_XOffset  'Voltage (mV)'[pcsr(B),pcsr(A)] /X='Current (pA)' /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	'Voltage (mV)'[0,8]
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*exp(-(x-W_fitConstants[0])/W_coef[2])
+  W_coef={0.52106,-1.0535,130.08}
+  W_fitConstants={-100}
+  V_chisq= 0.0186005;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;
+  W_sigma={0.185,0.168,44.8}
+  Coefficient values ± one standard deviation
+  	y0 	=0.52106 ± 0.185
+  	A  	=-1.0535 ± 0.168
+  	tau	=130.08 ± 44.8
+  Constant:
+  	X0	=-100
+¥Display Avg_ad1_6_15,Avg_ad1_16_25,Avg_ad1_26_35,Avg_ad1_36_45,Avg_ad1_46_55,Avg_ad1_56_65,Avg_ad1_66_75,Avg_ad1_76_85,Avg_ad1_86_95
+¥ShowInfo
+  
+  16:30:42  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 98 - 102
+  
+  16:31:02  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 103 - 107
+  
+  16:31:14  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 108 - 112
+  
+  16:31:26  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 113 - 117
+  
+  16:31:36  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 118 - 122
+  
+  16:31:46  Loop Acquire started
+  	5 sweeps, 0.1 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 123 - 127
+¥Display Avg_ad1_98_102,Avg_ad1_103_107,Avg_ad1_108_112,Avg_ad1_113_117,Avg_ad1_118_122,Avg_ad1_123_127
+¥ShowInfo
+¥DeletePoints 1,1, 'Current (pA)','Voltage (mV)'
+¥DeletePoints 6,1, 'Current (pA)'
+¥DeletePoints 7,1, 'Voltage (mV)'
