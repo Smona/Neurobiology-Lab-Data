@@ -1,1 +1,55 @@
 ¥Setup_Acquire()
+  
+  15:22:25  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 6 - 15
+¥SavePICT/E=-6/B=288
+  
+  15:25:17  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 16 - 25
+¥SavePICT/E=-6/B=288
+  
+  15:25:55  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 26 - 35
+¥SavePICT/E=-6/B=288
+  
+  15:26:31  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 36 - 45
+¥SavePICT/E=-6/B=288
+  
+  15:27:10  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 46 - 55
+¥SavePICT/E=-6/B=288
+  
+  15:27:50  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 56 - 65
+¥SavePICT/E=-6/B=288
+  
+  15:28:13  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 66 - 75
+¥SavePICT/E=-6/B=288
+  
+  15:28:42  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 76 - 85
+¥SavePICT/E=-6/B=288
+  
+  15:29:13  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 86 - 95
+¥SavePICT/E=-6/B=288
