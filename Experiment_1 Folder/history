@@ -223,3 +223,38 @@
   	X0	=25.8
 ¥SavePICT/E=-6/B=288 as "ShortStep_DAC Curve Fit"
 ¥Display Avg_ad1_141_155,Avg_ad1_156_170,Avg_ad1_171_185,Avg_ad1_186_200,Avg_ad1_201_215,Avg_ad1_216_230,Avg_ad1_231_245,Avg_ad1_246_260
+¥Display 'Voltage (mV)' vs 'Current (pA)'
+¥Label left "Voltage (mV)"
+¥Label bottom "Current (pA)"
+¥CurveFit/M=2/W=0 line, 'Voltage (mV)'/X='Current (pA)'/D
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*x
+  W_coef={-0.052889,0.51272}
+  V_chisq= 0.0220147;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;V_q= 1;V_Rab= -0;V_Pr= 0.999999;
+  V_r2= 0.999998;
+  W_sigma={0.0187,0.00029}
+  Coefficient values ± one standard deviation
+  	a	=-0.052889 ± 0.0187
+  	b	=0.51272 ± 0.00029
+¥ModifyGraph lsize('Voltage (mV)')=3
+¥ModifyGraph lsize=5
+¥RemoveFromGraph 'fit_Voltage (mV)'
+¥CurveFit/NTHR=0/TBOX=785 line  'Current (pA)' /D 
+  'fit_Current (pA)'= W_coef[0]+W_coef[1]*x
+  W_coef={100,-25}
+  V_chisq= 0;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;V_startRow= 0;
+  V_endRow= 8;V_q= 1;V_Rab= -0.840168;V_Pr= -1;V_r2= 1;
+  W_sigma={0,0}
+  Coefficient values ± one standard deviation
+  	a	=100 ± 0
+  	b	=-25 ± 0
+¥CurveFit/M=2/W=0/TBOX=(0x311) line, 'Voltage (mV)'/X='Current (pA)'/D
+  'fit_Voltage (mV)'= W_coef[0]+W_coef[1]*x
+  W_coef={-0.052889,0.51272}
+  V_chisq= 0.0220147;V_npnts= 9;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 8;V_q= 1;V_Rab= -0;V_Pr= 0.999999;
+  V_r2= 0.999998;
+  W_sigma={0.0187,0.00029}
+  Coefficient values ± one standard deviation
+  	a	=-0.052889 ± 0.0187
+  	b	=0.51272 ± 0.00029
