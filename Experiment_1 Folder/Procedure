@@ -1,2 +1,7 @@
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 #include "DataPro5_B365L"
+Window Graph2() : Graph
+	PauseUpdate; Silent 1		// building window...
+	Display /W=(472,216,1459,756) Avg_ad1_16_30,Avg_ad1_31_45,Avg_ad1_46_60,Avg_ad1_61_75 as "Model Cell Voltage Responses Between -100pA and 100pA"
+	AppendToGraph Avg_ad1_76_90,Avg_ad1_91_105,Avg_ad1_106_120,Avg_ad1_121_135
+EndMacro

@@ -258,3 +258,49 @@
   Coefficient values ± one standard deviation
   	a	=-0.052889 ± 0.0187
   	b	=0.51272 ± 0.00029
+¥SavePICT/E=-6/B=288 as "Voltage vs Current.jpg"
+¥Display Avg_ad1_16_30,Avg_ad1_31_45,Avg_ad1_46_60,Avg_ad1_61_75,Avg_ad1_76_90,Avg_ad1_91_105,Avg_ad1_106_120,Avg_ad1_121_135 as "Model Cell Voltage Responses Between -100pA and 100pA"
+¥SavePICT/E=-6/B=288 as "All model cell voltage reponses.jpg"
+¥Display EPSC_DAC,Avg_ad1_297_311 as "EPSC_DAC Current and Voltage Response"
+¥SetAxis/A
+¥Display Avg_ad1_297_311 as "EPSC_DAC- voltage and current"
+¥AppendToGraph/R EPSC_DAC
+¥Label right "Current (pA)"
+¥Label left "\\K(65535,0,0)Voltage Response (mV) "
+¥Label right "\\K(16385,28398,65535)Current Stimulus (pA)"
+¥Label bottom "Time (ms)"
+¥TextBox/C/N=text0/A=MC "Amplitude =\rTime To Peak Amplitude =\rDecay Time to Baseline ="
+¥ShowInfo
+¥TextBox/C/N=text0 "Amplitude = 2.0692 mV\rTime To Peak Amplitude =\rDecay Time to Baseline ="
+¥TextBox/C/N=text0 "Amplitude = 2.0692 mV\rTime To Peak Amplitude = 6.28 ms\rDecay Time to Baseline ="
+¥TextBox/C/N=text0 "Amplitude = 2.0692 mV\rTime To Peak Amplitude = 6.28 ms\rDecay Time to Baseline = 81.35 ms"
+¥HideInfo
+¥SavePICT/E=-6/B=288 as "EPSC_DAC Voltage and Current with Measured Data Table.jpg"
+¥Display Avg_ad1_280_294 as "ShortStep_DAC Voltage and Current"
+¥AppendToGraph/R ShortStep_DAC
+¥Label left "\\K(65535,0,0) Voltage Response (mV)"
+¥Label right "\\K(1,16019,65535) Current Stimulus (pA)"
+¥Label bottom "Time (ms)"
+¥ShowInfo
+¥CurveFit/NTHR=0/TBOX=785 dblexp_XOffset  Avg_ad1_280_294[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_280_294[263,1495]
+  fit_Avg_ad1_280_294= W_coef[0]+W_coef[1]*exp(-(x-W_fitConstants[0])/W_coef[2])+W_coef[3]*exp(-(x-W_fitConstants[0])/W_coef[4])
+  W_coef={-70.238,1.5083,14.189,0.95005,22.365}
+  W_fitConstants={26.3}
+  V_chisq= 0.253685;V_npnts= 1233;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 263;V_endRow= 1495;
+  W_sigma={0.00184,0.513,1.15,0.513,2.84}
+  Coefficient values ± one standard deviation
+  	y0  	=-70.238 ± 0.00184
+  	A1  	=1.5083 ± 0.513
+  	tau1	=14.189 ± 1.15
+  	A2  	=0.95005 ± 0.513
+  	tau2	=22.365 ± 2.84
+  Constant:
+  	X0	=26.3
+¥TextBox/C/N=CF_Avg_ad1_280_294 "\\JC\\f01Curve Fit Results\\f]0\r\\JLFunction: dblexp_XOffset\rCoefficient values ± one standard deviation\r\ty0  \t=-70.238 ± 0.00184";DelayUpdate
+¥AppendText/N=CF_Avg_ad1_280_294 "\tA1  \t=1.5083 ± 0.513\r\ttau1\t=14.189 ± 1.15\r\tA2  \t=0.95005 ± 0.513\r\ttau2\t=22.365 ± 2.84\rConstant:\r\tX0\t=26.3\r\t";DelayUpdate
+¥AppendText/N=CF_Avg_ad1_280_294 "\tThis current trace was scaled to 20pA \r\tduring this experiment"
+¥SavePICT/E=-6/B=288 as "ShortStep_DAC Voltage and Current and Curve Fit.jpg"
