@@ -1,0 +1,221 @@
+¥Setup_Acquire()
+  
+  14:38:54  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 1 - 10
+  
+  14:39:15  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 11 - 20
+  
+  14:40:17  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 21 - 30
+  
+  14:40:42  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 31 - 40
+  
+  14:41:07  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 41 - 50
+  
+  14:42:12  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 52 - 61
+  
+  14:44:07  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 62 - 71
+  
+  14:44:28  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 72 - 81
+  
+  14:55:42  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 82 - 91
+  
+  14:55:53  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 92 - 101
+  
+  14:56:07  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 102 - 111
+  
+  14:56:24  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 113 - 122
+  
+  14:56:38  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 123 - 132
+  
+  14:56:46  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 133 - 142
+  
+  14:56:55  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 143 - 152
+  
+  14:57:15  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 153 - 162
+  LongStep_DAC loaded from "LongStep_DAC.ibw"
+  
+  15:00:43  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 168 - 177
+  ShortStep_DAC loaded from "ShortStep_DAC.bwav"
+  
+  15:03:46  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 182 - 191
+  EPSC_DAC loaded from "EPSC_DAC.ibw"
+  
+  15:05:49  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 196 - 205
+  
+  15:20:54  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 206 - 215
+  
+  15:21:17  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 216 - 225
+  
+  15:22:37  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 230 - 239
+  
+  15:22:47  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 240 - 249
+  
+  15:22:55  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 250 - 259
+  
+  15:23:02  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 260 - 269
+  
+  15:23:20  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 270 - 279
+  
+  15:23:36  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 280 - 289
+  
+  15:23:44  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 290 - 299
+  
+  15:23:52  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 300 - 309
+  
+  15:24:25  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 310 - 319
+  
+  15:24:58  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 320 - 329
+  
+  15:25:27  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 330 - 339
+  
+  15:52:17  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 340 - 349
+  
+  15:53:05  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 350 - 359
+  
+  15:53:13  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 360 - 369
+  
+  15:53:21  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 370 - 379
+  
+  15:53:30  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 380 - 389
+  
+  15:53:37  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 390 - 399
+  Avg_ad1_320_329 loaded from "Avg_ad1_320_329.ibw"
+¥Display Avg_ad1_320_329
+  
+  15:57:03  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 400 - 409
+  
+  15:57:11  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 410 - 419
+  
+  15:58:59  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 420 - 429
+  
+  15:59:38  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 430 - 439
+  
+  16:00:16  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 440 - 449
