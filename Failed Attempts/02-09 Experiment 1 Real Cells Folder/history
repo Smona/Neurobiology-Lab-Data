@@ -1,0 +1,64 @@
+¥Setup_Acquire()
+  
+  18:27:22  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 22 - 31
+  
+  18:28:23  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 33 - 42
+  
+  18:29:16  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 43 - 52
+  
+  18:29:50  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 53 - 62
+  
+  18:30:36  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 64 - 73
+  LongStep_DAC loaded from "LongStep_DAC.ibw"
+  
+  18:33:20  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 76 - 85
+  ShortStep_DAC loaded from "ShortStep_DAC.bwav"
+  
+  18:35:06  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 90 - 99
+  EPSC_DAC loaded from "EPSC_DAC.ibw"
+  
+  18:38:39  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 109 - 118
+  
+  18:47:24  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 120 - 129
+  
+  18:47:57  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 130 - 139
+  
+  18:48:36  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 140 - 149
+  
+  18:49:16  Loop Acquire started
+  	10 sweeps, 1.5 s between sweeps
+  	Time to complete: 00:00:13
+  	Sweep range: 150 - 159
