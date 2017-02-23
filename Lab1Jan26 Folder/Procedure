@@ -1,2 +1,0 @@
-#pragma rtGlobals=3		// Use modern global access method and strict wave access.
-#include "DataPro5_B365L"
