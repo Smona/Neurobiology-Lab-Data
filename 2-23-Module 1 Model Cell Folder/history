@@ -219,3 +219,215 @@
   	10 sweeps, 0 s between sweeps
   	Time to complete: 00:00:00
   	Sweep range: 440 - 449
+¥Display Avg_ad1_230_239,Avg_ad1_240_249,Avg_ad1_250_259,Avg_ad1_260_269,Avg_ad1_270_279,Avg_ad1_280_289,Avg_ad1_290_299,Avg_ad1_300_309 as "Voltage Responses to Long Current Injections"
+¥Edit
+¥ShowInfo
+¥Rename wave0,'Injected Current (pA)'; 
+¥Rename wave1,'Recorded Voltage (mV)'; 
+¥Display 'Recorded Voltage (mV)' vs 'Injected Current (pA)' as "Current-Voltage Curve for Model Cell"
+¥CurveFit/M=2/W=0/TBOX=(0x311) line, 'Recorded Voltage (mV)'/X='Injected Current (pA)'/D
+  'fit_Recorded Voltage (mV)'= W_coef[0]+W_coef[1]*x
+  W_coef={-0.01069,0.019154}
+  V_chisq= 0.00160742;V_npnts= 8;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 7;V_q= 1;V_Rab= -0;V_Pr= 0.999942;
+  V_r2= 0.999883;
+  W_sigma={0.00579,8.45e-05}
+  Coefficient values ± one standard deviation
+  	a	=-0.01069 ± 0.00579
+  	b	=0.019154 ± 8.45e-05
+¥ModifyGraph lstyle('fit_Recorded Voltage (mV)')=3;DelayUpdate
+¥ModifyGraph lsize('fit_Recorded Voltage (mV)')=2;DelayUpdate
+¥ModifyGraph rgb('fit_Recorded Voltage (mV)')=(16385,28398,65535)
+¥ModifyGraph lsize('Recorded Voltage (mV)')=3
+¥ModifyGraph lsize=2,rgb('fit_Recorded Voltage (mV)')=(0,65535,0)
+¥ModifyGraph rgb('fit_Recorded Voltage (mV)')=(0,0,0)
+¥ModifyGraph rgb('fit_Recorded Voltage (mV)')=(65535,43690,0)
+¥ModifyGraph rgb('Recorded Voltage (mV)')=(0,0,0)
+¥ModifyGraph lsize('Recorded Voltage (mV)')=3
+¥ModifyGraph rgb('fit_Recorded Voltage (mV)')=(65535,0,26214)
+¥ModifyGraph lstyle=0,rgb('fit_Recorded Voltage (mV)')=(65535,65535,0)
+¥ModifyGraph lsize('Recorded Voltage (mV)')=4
+¥ModifyGraph lsize('Recorded Voltage (mV)')=6,lsize('fit_Recorded Voltage (mV)')=3
+¥Display Avg_ad1_320_329 as "ShortStepExpt1"
+¥CurveFit/M=2/W=0/TBOX=(0x311) dblexp, Avg_ad1_320_329/D
+  Fit converged properly
+  fit_Avg_ad1_320_329= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)+W_coef[3]*exp(-W_coef[4]*x)
+  W_coef={-71.143,0.078898,0.013596,0.10425,0.0118}
+  V_chisq= 24.3948;V_npnts= 5000;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 4999;
+  W_sigma={0.00546,45.1,0.55,45.1,0.364}
+  Coefficient values ± one standard deviation
+  	y0     	=-71.143 ± 0.00546
+  	A1     	=0.078898 ± 45.1
+  	invTau1	=0.013596 ± 0.55
+  	A2     	=0.10425 ± 45.1
+  	invTau2	=0.0118 ± 0.364
+¥RemoveFromGraph fit_Avg_ad1_320_329
+¥TextBox/K/N=CF_Avg_ad1_320_329
+¥ShowInfo
+¥CurveFit/NTHR=0/TBOX=785 dblexp  Avg_ad1_320_329[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_320_329[269,966]
+  fit_Avg_ad1_320_329= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)+W_coef[3]*exp(-W_coef[4]*x)
+  W_coef={-71.132,1.21,0.067421,3.7293,0.085862}
+  V_chisq= 0.351384;V_npnts= 698;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 269;V_endRow= 966;
+  W_sigma={0.00802,74.3,0.424,72.1,0.273}
+  Coefficient values ± one standard deviation
+  	y0     	=-71.132 ± 0.00802
+  	A1     	=1.21 ± 74.3
+  	invTau1	=0.067421 ± 0.424
+  	A2     	=3.7293 ± 72.1
+  	invTau2	=0.085862 ± 0.273
+¥ModifyGraph lsize(fit_Avg_ad1_320_329)=3,rgb(fit_Avg_ad1_320_329)=(1,12815,52428)
+  psc50Hz10x_DAC loaded from "psc50Hz10x_DAC.ibw"
+  
+  17:08:14  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 454 - 463
+  
+  17:10:44  Loop Acquire started
+  	10 sweeps, 0 s between sweeps
+  	Time to complete: 00:00:00
+  	Sweep range: 465 - 474
+¥Display Avg_ad1_330_339
+¥AppendToGraph/R EPSC_DAC
+¥ModifyGraph lsize(EPSC_DAC)=2,rgb(EPSC_DAC)=(1,12815,52428)
+¥ShowInfo
+¥TextBox/C/N=text0 "Amplitude: 70.526 mV\rTime to Peak Amplitude: 6.11 msec\rTime to Decay to Baseline: "
+¥TextBox/C/N=text0 "Amplitude: 70.526 mV\rTime to Peak Amplitude: 6.11 msec\rTime to Decay to Baseline: 39.82 msec"
+¥Display Avg_ad1_340_349,Avg_ad1_350_359,Avg_ad1_360_369,Avg_ad1_370_379,Avg_ad1_380_389,Avg_ad1_390_399,Avg_ad1_400_409,Avg_ad1_410_419 as "expt2-steppulse"
+¥Edit
+¥ShowInfo
+¥Rename wave0,'Injected Current pA'; 
+¥Rename wave1,'Voltage Response mV'; 
+¥Display 'Voltage Response mV' vs 'Injected Current pA' as "IV curve-expt2"
+¥AppendToGraph/R 'Recorded Voltage (mV)' vs 'Injected Current (pA)'
+¥Display 'Recorded Voltage (mV)' vs 'Injected Current pA'
+¥Display 'Recorded Voltage (mV)' vs 'Injected Current pA' as "I-V expt2"
+¥AppendToGraph 'Voltage Response mV' vs 'Injected Current (pA)'
+¥ModifyGraph lsize('Voltage Response mV')=2;DelayUpdate
+¥ModifyGraph rgb('Voltage Response mV')=(1,12815,52428)
+¥Legend/C/N=text0/J "\\s('Recorded Voltage (mV)') 'Before Treatment'\r\\s('Voltage Response mV') 'After Treatment'"
+¥Legend/C/N=text0/J "\\s('Recorded Voltage (mV)') 'Resistance of 140 M½'\r\\s('Voltage Response mV') 'Resistance of 240 M½'"
+¥ShowInfo
+¥CurveFit/NTHR=0/TBOX=785 line  'Recorded Voltage (mV)' /X='Injected Current pA' /D 
+  'fit_Recorded Voltage (mV)'= W_coef[0]+W_coef[1]*x
+  W_coef={-0.01069,0.019154}
+  V_chisq= 0.00160742;V_npnts= 8;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 7;V_q= 1;V_Rab= -0;V_Pr= 0.999942;
+  V_r2= 0.999883;
+  W_sigma={0.00579,8.45e-05}
+  Coefficient values ± one standard deviation
+  	a	=-0.01069 ± 0.00579
+  	b	=0.019154 ± 8.45e-05
+¥ModifyGraph lstyle('fit_Recorded Voltage (mV)')=6;DelayUpdate
+¥ModifyGraph lsize('fit_Recorded Voltage (mV)')=3;DelayUpdate
+¥ModifyGraph rgb('fit_Recorded Voltage (mV)')=(0,0,0)
+¥ModifyGraph lsize('Recorded Voltage (mV)')=5
+¥CurveFit/NTHR=0/TBOX=785 line  'Voltage Response mV' /X='Injected Current (pA)' /D 
+  'fit_Voltage Response mV'= W_coef[0]+W_coef[1]*x
+  W_coef={-0.011803,0.016739}
+  V_chisq= 0.0248954;V_npnts= 8;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 7;V_q= 1;V_Rab= -0;V_Pr= 0.998817;
+  V_r2= 0.997636;
+  W_sigma={0.0228,0.000333}
+  Coefficient values ± one standard deviation
+  	a	=-0.011803 ± 0.0228
+  	b	=0.016739 ± 0.000333
+¥ModifyGraph lstyle('fit_Voltage Response mV')=10;DelayUpdate
+¥ModifyGraph lsize('fit_Voltage Response mV')=3;DelayUpdate
+¥ModifyGraph rgb('fit_Voltage Response mV')=(48059,48059,48059)
+¥ModifyGraph lsize('Voltage Response mV')=5
+¥Legend/C/N=text0/J "\\s('Recorded Voltage (mV)') 'Resistance of 140 M½'\r\\s('Voltage Response mV') 'Resistance of 240 M½'";DelayUpdate
+¥AppendText/N=text0 "\\s('fit_Recorded Voltage (mV)') 'Fit of 140 M½'\r\\s('fit_Voltage Response mV') 'Fit of 240 M½'"
+¥TextBox/C/N=CF_Recorded_Voltage__mV_ "\\JC\\f01240 M½ Curve Fit Results\\f]0\r\\JLFunction: line\rCoefficient values ± one standard deviation\r\ta\t=-0.01069 ± 0.00579";DelayUpdate
+¥AppendText/N=CF_Recorded_Voltage__mV_ "\tb\t=0.019154 ± 8.45e-05"
+¥TextBox/C/N=CF_Voltage_Response_mV "\\JC\\f01140 M½ Curve Fit Results\\f]0\r\\JLFunction: line\rCoefficient values ± one standard deviation\r\ta\t=-0.011803 ± 0.0228";DelayUpdate
+¥AppendText/N=CF_Voltage_Response_mV "\tb\t=0.016739 ± 0.000333"
+¥Display Avg_ad1_320_329
+¥AppendToGraph Avg_ad1_430_439
+¥ModifyGraph rgb(Avg_ad1_430_439)=(1,16019,65535)
+¥ShowInfo
+¥CurveFit/NTHR=0/TBOX=785 exp  Avg_ad1_320_329[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_320_329[256,875]
+  fit_Avg_ad1_320_329= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)
+  W_coef={-71.133,4.6578,0.078387}
+  V_chisq= 0.314609;V_npnts= 620;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 256;V_endRow= 875;
+  W_sigma={0.00183,0.145,0.0011}
+  Coefficient values ± one standard deviation
+  	y0    	=-71.133 ± 0.00183
+  	A     	=4.6578 ± 0.145
+  	invTau	=0.078387 ± 0.0011
+¥ModifyGraph lstyle(fit_Avg_ad1_320_329)=3;DelayUpdate
+¥ModifyGraph rgb(fit_Avg_ad1_320_329)=(8738,8738,8738)
+¥ModifyGraph lsize(fit_Avg_ad1_320_329)=3
+¥TextBox/C/N=CF_Avg_ad1_320_329 "\\JC\\f01140 M½ Curve Fit Results\\f]0\r\\JLFunction: exp\rCoefficient values ± one standard deviation\r\ty0    \t=-71.133 ± 0.00183";DelayUpdate
+¥AppendText/N=CF_Avg_ad1_320_329 "\tA     \t=4.6578 ± 0.145\r\tinvTau\t=0.078387 ± 0.0011"
+¥CurveFit/NTHR=0/TBOX=785 exp  Avg_ad1_320_329[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_320_329[251,855]
+  fit_Avg_ad1_320_329= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)
+  W_coef={-71.136,4.2673,0.075628}
+  V_chisq= 0.381837;V_npnts= 605;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 251;V_endRow= 855;
+  W_sigma={0.0022,0.141,0.00119}
+  Coefficient values ± one standard deviation
+  	y0    	=-71.136 ± 0.0022
+  	A     	=4.2673 ± 0.141
+  	invTau	=0.075628 ± 0.00119
+¥CurveFit/NTHR=0/TBOX=785 exp  Avg_ad1_430_439[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_430_439[251,855]
+  fit_Avg_ad1_430_439= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)
+  W_coef={-71.823,5.5682,0.088763}
+  V_chisq= 0.386492;V_npnts= 605;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 251;V_endRow= 855;
+  W_sigma={0.00189,0.226,0.00145}
+  Coefficient values ± one standard deviation
+  	y0    	=-71.823 ± 0.00189
+  	A     	=5.5682 ± 0.226
+  	invTau	=0.088763 ± 0.00145
+¥ModifyGraph lstyle(fit_Avg_ad1_430_439)=3,lsize(fit_Avg_ad1_430_439)=3;DelayUpdate
+¥ModifyGraph rgb(fit_Avg_ad1_430_439)=(40969,65535,16385)
+¥TextBox/K/N=CF_Avg_ad1_320_329
+¥RemoveFromGraph fit_Avg_ad1_320_329
+¥CurveFit/NTHR=0/TBOX=785 exp  Avg_ad1_320_329[pcsr(A),pcsr(B)] /D 
+  Fit converged properly
+  Curve fit with data subrange:
+	Avg_ad1_320_329[256,892]
+  fit_Avg_ad1_320_329= W_coef[0]+W_coef[1]*exp(-W_coef[2]*x)
+  W_coef={-71.132,4.696,0.078722}
+  V_chisq= 0.319674;V_npnts= 637;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 256;V_endRow= 892;
+  W_sigma={0.00174,0.144,0.00108}
+  Coefficient values ± one standard deviation
+  	y0    	=-71.132 ± 0.00174
+  	A     	=4.696 ± 0.144
+  	invTau	=0.078722 ± 0.00108
+¥ModifyGraph lsize(fit_Avg_ad1_320_329)=3,rgb(fit_Avg_ad1_320_329)=(0,0,0)
+¥ModifyGraph lstyle(fit_Avg_ad1_320_329)=3
+¥TextBox/C/N=CF_Avg_ad1_320_329 "\\JC\\f01140 M½ Curve Fit Results\\f]0\r\\JLFunction: exp\rCoefficient values ± one standard deviation\r\ty0    \t=-71.132 ± 0.00174";DelayUpdate
+¥AppendText/N=CF_Avg_ad1_320_329 "\tA     \t=4.696 ± 0.144\r\tinvTau\t=0.078722 ± 0.00108"
+¥TextBox/C/N=CF_Avg_ad1_430_439 "\\JC\\f01240 M½ Curve Fit Results\\f]0\r\\JLFunction: exp\rCoefficient values ± one standard deviation\r\ty0    \t=-71.823 ± 0.00189";DelayUpdate
+¥AppendText/N=CF_Avg_ad1_430_439 "\tA     \t=5.5682 ± 0.226\r\tinvTau\t=0.088763 ± 0.00145"
+¥Display Avg_ad1_330_339
+¥AppendToGraph Avg_ad1_440_449
+¥ModifyGraph rgb(Avg_ad1_440_449)=(1,16019,65535)
+¥ShowInfo
+¥TextBox/C/N=text0 "140 M½\rAmplitude: 0.73312 mV\rRise Time: 10.57 msec\rDecay Time: \r\r240 M½\rAmplitude:\rRise Time:\rDecay Time:"
+¥TextBox/C/N=text0 "140 M½\rAmplitude: 0.73312 mV\rRise Time: 10.57 msec\rDecay Time: 52.92\r\r240 M½\rAmplitude:\rRise Time:\rDecay Time:"
+¥TextBox/C/N=text0 "140 M½\rAmplitude: 0.73312 mV\rRise Time: 10.57 msec\rDecay Time: 52.92\r\r240 M½\rAmplitude:\rRise Time:\rDecay Time: 49.57 msec"
+¥TextBox/C/N=text0 "140 M½\rAmplitude: 0.73312 mV\rRise Time: 10.57 msec\rDecay Time: 52.92\r\r240 M½\rAmplitude: 0.70812 mV\rRise Time: 11.46 msec";DelayUpdate
+¥AppendText/N=text0 "Decay Time: 49.57 msec"
+¥Display Avg_ad1_465_474
+¥AppendToGraph Avg_ad1_454_463
+¥ModifyGraph lsize(Avg_ad1_454_463)=2,rgb(Avg_ad1_454_463)=(1,16019,65535)
+¥ModifyGraph lsize=1
