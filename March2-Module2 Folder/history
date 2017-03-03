@@ -1,0 +1,187 @@
+¥Setup_Acquire()
+  Igor text load from "Part1-IV curve for model cell.txt"
+  waves: Injected Current (pA)
+  Igor text load from "Part1-IV curve for model cell.txt"
+  waves: Recorded Voltage (mV)
+  Igor text load from "Part1-IV curve for model cell.txt"
+  waves: fit_Recorded Voltage (mV)
+¥Legend/C/N=text0/J/A=MC "\\s('Recorded Voltage (mV)') 'Voltage Responses to Long Current Injections (mV)'";DelayUpdate
+¥AppendText "\\s('fit_Recorded Voltage (mV)') 'fit_Recorded Voltage (mV)'"
+  threshold_DAC loaded from "threshold_DAC.ibw"
+  threshold100_DAC loaded from "threshold100_DAC 2.ibw"
+¥PairedPulseStimulation()
+  16:29:41 PairedPulseStimulation started
+  	Collecting sweep 29
+  	interstimulus interval = 100 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 100 ms
+¥PairedPulseStimulation()
+  16:31:33 PairedPulseStimulation started
+  	Collecting sweep 34
+  	interstimulus interval = 100 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 1 ms
+¥PairedPulseStimulation()
+  16:33:00 PairedPulseStimulation started
+  	Collecting sweep 37
+  	interstimulus interval = 100 ms
+  	first pulse amp = 80 pA
+  	second pulse amp = 80 pA
+  	step pulse duration = 1 ms
+¥PairedPulseStimulation()
+  16:33:46 PairedPulseStimulation started
+  	Collecting sweep 38
+  	interstimulus interval = 150 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 1 ms
+¥PairedPulseStimulation()
+  16:35:43 PairedPulseStimulation started
+  	Collecting sweep 45
+  	interstimulus interval = 150 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:37:40 PairedPulseStimulation started
+  	Collecting sweep 50
+  	interstimulus interval = 130 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:38:39 PairedPulseStimulation started
+  	Collecting sweep 52
+  	interstimulus interval = 110 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:39:27 PairedPulseStimulation started
+  	Collecting sweep 53
+  	interstimulus interval = 110 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:40:03 PairedPulseStimulation started
+  	Collecting sweep 54
+  	interstimulus interval = 100 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:40:24 PairedPulseStimulation started
+  	Collecting sweep 55
+  	interstimulus interval = 90 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:40:41 PairedPulseStimulation started
+  	Collecting sweep 56
+  	interstimulus interval = 80 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:41:00 PairedPulseStimulation started
+  	Collecting sweep 57
+  	interstimulus interval = 70 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:41:19 PairedPulseStimulation started
+  	Collecting sweep 58
+  	interstimulus interval = 60 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:41:48 PairedPulseStimulation started
+  	Collecting sweep 59
+  	interstimulus interval = 50 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:42:06 PairedPulseStimulation started
+  	Collecting sweep 60
+  	interstimulus interval = 40 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:42:25 PairedPulseStimulation started
+  	Collecting sweep 61
+  	interstimulus interval = 30 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:42:52 PairedPulseStimulation started
+  	Collecting sweep 62
+  	interstimulus interval = 20 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:43:23 PairedPulseStimulation started
+  	Collecting sweep 63
+  	interstimulus interval = 10 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:43:42 PairedPulseStimulation started
+  	Collecting sweep 64
+  	interstimulus interval = 5 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:44:45 PairedPulseStimulation started
+  	Collecting sweep 65
+  	interstimulus interval = 5 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 200 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:46:10 PairedPulseStimulation started
+  	Collecting sweep 66
+  	interstimulus interval = 5 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 300 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:46:31 PairedPulseStimulation started
+  	Collecting sweep 67
+  	interstimulus interval = 5 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 350 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:46:49 PairedPulseStimulation started
+  	Collecting sweep 68
+  	interstimulus interval = 5 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 380 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  16:47:35 PairedPulseStimulation started
+  	Collecting sweep 69
+  	interstimulus interval = 3 ms
+  	first pulse amp = 100 pA
+  	second pulse amp = 100 pA
+  	step pulse duration = 2 ms
+¥PairedPulseStimulation()
+  Igor text load from "EPSC_DAC for 140 and 240 together.txt"
+  waves: Avg_ad1_330_339
+  Igor text load from "EPSC_DAC for 140 and 240 together.txt"
+  waves: Avg_ad1_440_449
+¥Legend/C/N=text1/J/A=MC "\\s(Avg_ad1_330_339)Voltage Response to EPSC_DAC\rInput Resistance = 140 M½\r\\s(Avg_ad1_440_449)Voltage Response to EPSC_DAC";DelayUpdate
+¥AppendText "Input Resistance = 240 M½"
+¥SavePICT/E=-6/B=288 as "expt2 voltage response to EPSC_DAC for both.jpg"

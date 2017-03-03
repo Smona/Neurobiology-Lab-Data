@@ -431,3 +431,43 @@
 ¥AppendToGraph Avg_ad1_454_463
 ¥ModifyGraph lsize(Avg_ad1_454_463)=2,rgb(Avg_ad1_454_463)=(1,16019,65535)
 ¥ModifyGraph lsize=1
+  Igor text load from "last graph- 50 Hz train for both.txt"
+  waves: Avg_ad1_454_463
+  Igor text load from "last graph- 50 Hz train for both.txt"
+  waves: Avg_ad1_465_474
+¥Legend/C/N=text0/J "\\s(Avg_ad1_465_474) 140 M½\r\\s(Avg_ad1_454_463) 240 M½"
+¥SavePICT/E=-6/B=288 as "stepboth.jpg"
+  Igor text load from "EPSC_DAC for 140 and 240 together.txt"
+  waves: Avg_ad1_330_339
+  Igor text load from "EPSC_DAC for 140 and 240 together.txt"
+  waves: Avg_ad1_440_449
+¥Legend/C/N=text1/J "\\s(Avg_ad1_330_339) 140 M½\r\\s(Avg_ad1_440_449) 240 M½"
+¥Display Avg_ad1_230_239,Avg_ad1_240_249,Avg_ad1_250_259,Avg_ad1_260_269,Avg_ad1_270_279,Avg_ad1_280_289,Avg_ad1_290_299,Avg_ad1_300_309
+¥Legend/C/N=text0/J/A=MC "\\s(Avg_ad1_230_239) Before Wash"
+¥AppendToGraph/L=CurrentInjections StepPulse_DAC
+¥RemoveFromGraph StepPulse_DAC
+¥TextBox/C/N=text1/A=MC "100 pA"
+¥TextBox/C/N=text2/A=MC "75 pA"
+¥TextBox/C/N=text3/A=MC "50 pA"
+¥TextBox/C/N=text4/A=MC "25 pA"
+¥TextBox/C/N=text5/A=MC "-25 pA"
+¥TextBox/C/N=text6/A=MC "-50 pA"
+¥TextBox/C/N=text7/A=MC "-75 pA"
+¥TextBox/C/N=text8/A=MC "-100 pA"
+¥SavePICT/E=-6/B=288 as "expt 1 voltage responses.jpg"
+¥Display Avg_ad1_340_349,Avg_ad1_350_359,Avg_ad1_360_369,Avg_ad1_370_379,Avg_ad1_380_389,Avg_ad1_390_399,Avg_ad1_400_409,Avg_ad1_410_419
+¥ModifyGraph rgb(Avg_ad1_340_349)=(1,16019,65535);DelayUpdate
+¥ModifyGraph rgb(Avg_ad1_350_359)=(1,16019,65535),rgb(Avg_ad1_360_369)=(0,0,65535);DelayUpdate
+¥ModifyGraph rgb(Avg_ad1_370_379)=(0,0,65535),rgb(Avg_ad1_380_389)=(0,0,65535);DelayUpdate
+¥ModifyGraph rgb(Avg_ad1_390_399)=(0,0,65535),rgb(Avg_ad1_400_409)=(0,0,65535);DelayUpdate
+¥ModifyGraph rgb(Avg_ad1_410_419)=(0,0,65535)
+¥Legend/C/N=text0/J/A=MC "\\s(Avg_ad1_340_349) After Resistance Added"
+¥TextBox/C/N=text1/A=MC "100 pA"
+¥TextBox/C/N=text2/A=MC "75 pA"
+¥TextBox/C/N=text3/A=MC "50 pA"
+¥TextBox/C/N=text4/A=MC "25 pA"
+¥TextBox/C/N=text5/A=MC "-25 pA"
+¥TextBox/C/N=text6/A=MC "-50 pA"
+¥TextBox/C/N=text7/A=MC "-75 pA"
+¥TextBox/C/N=text8/A=MC "-100 pA"
+¥SavePICT/E=-6/B=288 as "voltage responses after resistance added (after wash).jpg"
