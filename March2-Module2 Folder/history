@@ -427,3 +427,114 @@
 ¥Label left "dV/dt (mV/msec)"
 ¥Label bottom "Membrane Potential (mV)"
 ¥SavePICT/E=-6/B=288 as "wave24Phase-plane.jpg"
+¥Display ad1_50,ad1_52,ad1_54,ad1_56,ad1_58,ad1_60,ad1_62,ad1_64
+¥SetAxis left -75.418747,*;DelayUpdate
+¥SetAxis bottom 0,325
+¥SetAxis bottom 30,325
+¥SetAxis bottom 30,300
+¥ModifyGraph rgb(ad1_64)=(0,0,0)
+¥TextBox/C/N=text0/A=MC "Wave 51\r130 ms"
+¥TextBox/C/N=text1/A=MC "Wave 53\r110 ms"
+¥TextBox/C/N=text1 "\\Z09Wave 53\r110 ms"
+¥TextBox/C/N=text0 "\\Z09\\F'Apple Chancery'\\F'Braggadocio'\\F'Charter Roman'Wave 51\r130 ms"
+¥TextBox/C/N=text1 "\\F'Charter Roman'\\Z09Wave 53\r110 ms"
+¥TextBox/C/N=text2/A=MC "\\F'Charter Roman'\\Z09Wave 55\r90 ms"
+¥TextBox/C/N=text3/A=MC "\\F'Charter Roman'\\Z09Wave 57\r70 ms"
+¥TextBox/C/N=text4/A=MC "\\F'Charter Roman'\\Z09Wave 59\r50 ms"
+¥TextBox/C/N=text5/A=MC "\\F'Charter Roman'\\Z09Wave 61\r30 ms"
+¥TextBox/C/N=text6/A=MC "\\F'Charter Roman'\\Z09Wave 63\r10 ms"
+¥TextBox/C/N=text0 "\\Z09\\F'Apple Chancery'\\F'Braggadocio'\\F'Charter Roman'Wave 50\r130 ms"
+¥TextBox/C/N=text1 "\\F'Charter Roman'\\Z09Wave 52\r120 ms"
+¥TextBox/C/N=text2 "\\F'Charter Roman'\\Z09Wave 54\r100 ms"
+¥TextBox/C/N=text3 "\\F'Charter Roman'\\Z09Wave 56\r80 ms"
+¥TextBox/C/N=text4 "\\F'Charter Roman'\\Z09Wave 58\r60 ms"
+¥TextBox/C/N=text5 "\\F'Charter Roman'\\Z09Wave 60\r40 ms"
+¥TextBox/C/N=text6 "\\F'Charter Roman'\\Z09Wave 62\r20 ms"
+¥TextBox/C/N=text7/A=MC "\\Z09\\F'Charter Roman'Wave 64\r5 ms"
+¥TextBox/C/N=text8/A=MC "\\F'Charter Roman'\\Z09Wave 64\r5 ms"
+¥TextBox/C/N=text6 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 62\r20 ms"
+¥TextBox/C/N=text5 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 60\r40 ms"
+¥TextBox/C/N=text4 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 58\r60 ms"
+¥TextBox/C/N=text3 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 56\r80 ms"
+¥TextBox/C/N=text2 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 54\r100 ms"
+¥TextBox/C/N=text1 "\\K(65535,0,0)\\F'Charter Roman'\\Z09Wave 52\r120 ms"
+¥TextBox/C/N=text7 "\\K(65535,0,0)\\Z09\\F'Charter Roman'Wave 64\r5 ms"
+¥TextBox/C/N=text0 "\\K(65535,0,0)\\Z09\\F'Apple Chancery'\\F'Braggadocio'\\F'Charter Roman'Wave 50\r130 ms"
+¥Label bottom "Time (ms)"
+¥Label left "Membrane Voltage (mV)"
+¥TextBox/K/N=text7
+¥SavePICT/E=-6/B=288 as "Relative refractory period begins at 50 ms"
+¥Display ad1_65,ad1_66,ad1_67,ad1_68
+¥SetAxis bottom 40,150
+¥ModifyGraph rgb(ad1_66)=(16385,28398,65535),rgb(ad1_67)=(0,65535,0);DelayUpdate
+¥ModifyGraph rgb(ad1_68)=(0,65535,65535)
+¥AppendToGraph ad1_69
+¥Display ad1_68,ad1_69
+¥ModifyGraph rgb(ad1_68)=(0,65535,65535),rgb(ad1_69)=(36873,14755,58982)
+¥SetAxis bottom 30,200
+¥SetAxis bottom 30,160
+¥TextBox/C/N=text0/A=MC "\\F'Charter Roman'\\Z09\\Z10Wave 68\r5ms\rSecond pulse at 380 pA"
+¥Tag/C/N=text1 ad1_68, 0
+¥TextBox/C/N=text2/A=MC
+¥Tag/C/N=text0/L=2 ad1_68, 0
+¥Tag/C/N=text0/L=0 
+¥TextBox/K/N=text2
+¥TextBox/C/N=text2/A=MC "Wave 69\r3ms"
+¥Tag/C/N=text0 ad1_68, 0,"\\Z18\\Z36\\F'Charter Roman'\\Z09\\Z10Wave 68\r5ms\rSecond pulse at 380 pA"
+¥Tag/C/N=text0 ad1_68, 0,"\\Z36\\F'Charter Roman'\\Z09\\Z10Wave 68\r5ms\rSecond pulse at 380 pA"
+¥Tag/K/N=text0
+¥Tag/C/N=text0/L=0 ad1_68, 0,"Wave 68\r5ms\rSecond Pulse at 380pA"
+¥Label bottom "Time (ms)"
+¥Tag/C/N=text0 ad1_68, 0,"Wave 68\r5ms"
+¥Label left "Membrane Voltage (mV)"
+¥SavePICT/E=-6/B=288 as "absoluterefract.pt2.jpg"
+¥Display ad1_86,ad1_147
+¥Display ad1_73,ad1_150
+¥Display ad1_80,ad1_154
+¥PhasePlane_Analysis()
+¥Tag/C/N=text0/L=0 ad1_86, 0,"Voltage response before and after AP5 Wash\rClamped at -60mV"
+¥Tag/C/N=text0/L=0 ad1_73, 0,"Voltage response before and after AP5 Wash\rClamped at -70mV"
+¥Tag/C/N=text0/L=0 ad1_80, 0,"Voltage response before and after AP5 Wash\rClamped at -80mV"
+¥Label bottom "Time (ms)"
+¥Label left "Membrane Voltage (mV)"
+¥Label left "Membrane Voltage (mV)"
+¥Label left "Membrane Voltage (mV)"
+¥Label bottom "Time (ms)"
+¥Label bottom "Time (ms)"
+¥ShowInfo
+¥Tag/C/N=text1 ad1_86, 0,"Threshold: -47.55mV @ 19.01ms"
+¥Tag/C/N=text1 ad1_86, 19
+¥Tag/C/N=text2 ad1_86, 20.66,"Threshold: -49.45mV @ 20.66ms"
+¥Tag/C/N=text2 ad1_147, 20.66
+¥Tag/C/N=text2 ad1_147, 20.66,"\\K(0,0,65535)Threshold: -49.45mV @ 20.66ms"
+¥Tag/C/N=text1 ad1_86, 19,"\\K(65535,0,0)Threshold: -47.55mV @ 19.01ms"
+¥SavePICT/E=-6/B=288 as "Expt3SingleAP-60.jpg"
+¥ShowInfo
+¥Tag/C/N=text1 ad1_80, 19.34,"\\K(65535,0,0)Threshold: -51.2mV @ 19.34ms"
+¥Tag/C/N=text2 ad1_80, 19.84,"\\K(0,0,65535)Threshold: -55.05mV @ 19.84ms"
+¥Tag/C/N=text2 ad1_154, 19.84
+¥SavePICT/E=-6/B=288 as "Expt3SingleAP-70.jpg"
+¥ShowInfo
+¥Tag/C/N=text1 ad1_73, 20,"\\K(65535,0,0)Threshold: -49.625mV @ 20.0ms"
+¥Tag/C/N=text2 ad1_150, 20.85,"\\K(0,0,65535)Threshold: -52.2mV @ 20.85ms"
+¥SavePICT/E=-6/B=288 as "Expt3SingleAP-80"
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥AppendToGraph dVdt_ad1_147
+¥RemoveFromGraph dVdt_ad1_147
+¥AppendToGraph/L=VertCrossing/B=HorizCrossing dVdt_ad1_147
+¥RemoveFromGraph dVdt_ad1_147
+¥ShowInfo
+¥Tag/C/N=text0 dVdt_ad1_86, 19.32,"Peak dV/dt: 475.31 mV/ms"
+¥ShowInfo
+¥Tag/C/N=text0 dVdt_ad1_147, 20.95,"Peak dV/dt: 520.31 mV/ms"
+¥TextBox/C/N=text1/A=MC "Phase Plane Plot of Action Potential Before AP5 Wash\rClamped at -60mV"
+¥TextBox/C/N=text1 "Phase Plane Plot of Action Potential After AP5 Wash\rClamped at -60mV"
+¥TextBox/C/N=text1/A=MC "Phase Plane Plot of Action Potential Before AP5 Wash\rClamped at -60mV"
+¥TextBox/C/N=text1 "Phase Plane Plot of Action Potential\rBefore AP5 Wash\rClamped at -60mV"
+¥TextBox/C/N=text1 "Phase Plane Plot of Action Potential\rAfter AP5 Wash\rClamped at -60mV"
+¥SavePICT/E=-6/B=288 as "Part3-phaseplanbeforeafer-60.jpg"
+¥SavePICT/E=-6/B=288 as "Part3-phaseplanbeforeafer-2.jpg"
+  ok
+  TestPulse_ADC;
+  1  traces on graph
