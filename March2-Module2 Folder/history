@@ -185,3 +185,245 @@
 ¥Legend/C/N=text1/J/A=MC "\\s(Avg_ad1_330_339)Voltage Response to EPSC_DAC\rInput Resistance = 140 M½\r\\s(Avg_ad1_440_449)Voltage Response to EPSC_DAC";DelayUpdate
 ¥AppendText "Input Resistance = 240 M½"
 ¥SavePICT/E=-6/B=288 as "expt2 voltage response to EPSC_DAC for both.jpg"
+  ad1_50 loaded from "ad1_50.bwav"
+¥Edit/K=0 root:ad1_50;DelayUpdate
+¥Display ::ad1_63
+¥ShowInfo
+¥ModifyGraph minor(left)=1,sep(left)=1
+¥ModifyGraph sep=1
+¥ModifyGraph minor=1
+¥ModifyGraph nticks(bottom)=50
+¥ModifyGraph nticks(left)=20
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥Edit/K=0 root:ad1_11;DelayUpdate
+¥Display ::ad1_11
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥PhasePlane_Analysis()
+¥AnalysisPanelButtonProc("Setup_Analysis_menu_call")
+¥Setup_DataPro_Menu()
+  ok
+  ad1_11;
+  1  traces on graph
+¥MakePhaseplane(11)
+  ok
+  ad1_11d;
+  1  traces on graph
+  number of APs fired is:   246.5
+  threshold for spike#  1  is  10.1519   at t=  0.0289001
+  threshold for spike#  2  is  10.1519   at t=  0.0289001
+  threshold for spike#  3  is  10.1519   at t=  0.0289001
+  threshold for spike#  4  is  10.1519   at t=  0.0289001
+  threshold for spike#  5  is  10.1519   at t=  0.0289001
+  threshold for spike#  6  is  10.1519   at t=  0.0289001
+  threshold for spike#  7  is  10.1519   at t=  0.0289001
+  threshold for spike#  8  is  10.1519   at t=  0.0289001
+  threshold for spike#  9  is  10.1519   at t=  0.0289001
+  threshold for spike#  10  is  10.1519   at t=  0.0289001
+  threshold for spike#  11  is  10.1519   at t=  0.0289001
+  threshold for spike#  12  is  10.1519   at t=  0.0289001
+  threshold for spike#  13  is  10.1519   at t=  0.0289001
+  threshold for spike#  14  is  10.1519   at t=  0.0289001
+  threshold for spike#  15  is  10.1519   at t=  0.0289001
+  threshold for spike#  16  is  10.1519   at t=  0.0289001
+  threshold for spike#  17  is  10.1519   at t=  0.0289001
+  threshold for spike#  18  is  10.1519   at t=  0.0289001
+  threshold for spike#  19  is  10.1519   at t=  0.0289001
+  threshold for spike#  20  is  2.53301   at t=  0.117222
+  threshold for spike#  21  is  7.08518   at t=  0.224139
+  threshold for spike#  22  is  -12.754   at t=  0.333173
+  threshold for spike#  23  is  -20.904   at t=  0.405794
+  threshold for spike#  24  is  7.07736   at t=  0.517195
+  threshold for spike#  25  is  12.2234   at t=  0.639958
+  threshold for spike#  26  is  -17.6913   at t=  0.754707
+  threshold for spike#  27  is  3.99309   at t=  0.920794
+  threshold for spike#  28  is  2.49891   at t=  1.07409
+  threshold for spike#  29  is  4.9852   at t=  1.19978
+  threshold for spike#  30  is  -0.255347   at t=  1.30255
+  threshold for spike#  31  is  -6.87234   at t=  1.45069
+  threshold for spike#  32  is  6.95641   at t=  1.56096
+  threshold for spike#  33  is  -0.244332   at t=  1.64427
+  threshold for spike#  34  is  3.95477   at t=  1.74437
+  threshold for spike#  35  is  -3.19793   at t=  1.88078
+  threshold for spike#  36  is  -6.18927   at t=  1.96528
+  threshold for spike#  37  is  -8.83733   at t=  2.04576
+  threshold for spike#  38  is  -6.67108   at t=  2.07319
+  threshold for spike#  39  is  11.7619   at t=  2.17244
+  threshold for spike#  40  is  17.344   at t=  2.29125
+  threshold for spike#  41  is  -10.6911   at t=  2.43029
+  threshold for spike#  42  is  -9.5959   at t=  2.47044
+  threshold for spike#  43  is  -12.6957   at t=  2.55417
+  threshold for spike#  44  is  -4.15908   at t=  2.68085
+  threshold for spike#  45  is  12.57   at t=  2.79916
+  threshold for spike#  46  is  8.37053   at t=  2.93072
+  threshold for spike#  47  is  -8.62564   at t=  3.03718
+  threshold for spike#  48  is  -4.79797   at t=  3.14301
+  threshold for spike#  49  is  -3.3285   at t=  3.24553
+  threshold for spike#  50  is  -7.5843   at t=  3.30946
+  threshold for spike#  51  is  10.7882   at t=  3.45177
+  threshold for spike#  52  is  -3.8418   at t=  3.55479
+  threshold for spike#  53  is  4.82684   at t=  3.68543
+  threshold for spike#  54  is  17.6562   at t=  3.77601
+  threshold for spike#  55  is  -0.147789   at t=  3.88912
+  threshold for spike#  56  is  -9.8913   at t=  3.96524
+  threshold for spike#  57  is  -0.666669   at t=  4.06243
+  threshold for spike#  58  is  -1.65057   at t=  4.12801
+  threshold for spike#  59  is  -3.43901   at t=  4.28374
+  threshold for spike#  60  is  3.04836   at t=  4.3432
+  threshold for spike#  61  is  3.87392   at t=  4.44741
+  threshold for spike#  62  is  -3.82175   at t=  4.52146
+  threshold for spike#  63  is  -11.2221   at t=  4.56611
+  threshold for spike#  64  is  3.41416   at t=  4.69628
+  threshold for spike#  65  is  11.427   at t=  4.82278
+  threshold for spike#  66  is  11.427   at t=  4.82278
+  threshold for spike#  67  is  4.49061   at t=  4.88804
+  threshold for spike#  68  is  2.18258   at t=  5.00799
+  threshold for spike#  69  is  -10.2787   at t=  5.1056
+  threshold for spike#  70  is  -8.38275   at t=  5.20844
+  threshold for spike#  71  is  8.51367   at t=  5.32157
+  threshold for spike#  72  is  12.4606   at t=  5.39277
+  threshold for spike#  73  is  -3.48731   at t=  5.49332
+  threshold for spike#  74  is  -9.14418   at t=  5.58685
+  threshold for spike#  75  is  5.69521   at t=  5.67419
+  threshold for spike#  76  is  -0.670828   at t=  5.78184
+  threshold for spike#  77  is  -2.2313   at t=  5.89922
+  threshold for spike#  78  is  6.88917   at t=  6.00267
+  threshold for spike#  79  is  -12.0046   at t=  6.17479
+  threshold for spike#  80  is  0.828453   at t=  6.29887
+  threshold for spike#  81  is  5.61442   at t=  6.33709
+  threshold for spike#  82  is  1.79602   at t=  6.44192
+  threshold for spike#  83  is  4.83664   at t=  6.58242
+  threshold for spike#  84  is  13.4479   at t=  6.66505
+  threshold for spike#  85  is  0.246177   at t=  6.77484
+  threshold for spike#  86  is  -2.23739   at t=  6.93339
+  threshold for spike#  87  is  -5.04222   at t=  6.98977
+  threshold for spike#  88  is  -11.5022   at t=  7.0769
+  threshold for spike#  89  is  0.155598   at t=  7.16383
+  threshold for spike#  90  is  19.7759   at t=  7.25533
+  threshold for spike#  91  is  12.3062   at t=  7.3012
+  threshold for spike#  92  is  -10.7713   at t=  7.40303
+  threshold for spike#  93  is  -10.7568   at t=  7.48678
+  threshold for spike#  94  is  4.64698   at t=  7.64032
+  threshold for spike#  95  is  -2.01154   at t=  7.72053
+  threshold for spike#  96  is  -5.72708   at t=  7.79094
+  threshold for spike#  97  is  4.38632   at t=  7.9116
+  threshold for spike#  98  is  -5.04102   at t=  8.02666
+  threshold for spike#  99  is  -5.36986   at t=  8.06349
+  threshold for spike#  100  is  12.1034   at t=  8.19718
+  threshold for spike#  101  is  -9.74853   at t=  8.4397
+  threshold for spike#  102  is  9.12789   at t=  8.51411
+  threshold for spike#  103  is  -9.66631   at t=  8.71089
+  threshold for spike#  104  is  2.39391   at t=  8.83504
+  threshold for spike#  105  is  -7.97908   at t=  9.02697
+  threshold for spike#  106  is  10.6537   at t=  9.17961
+  threshold for spike#  107  is  7.48936   at t=  9.2698
+  threshold for spike#  108  is  -9.86161   at t=  9.41532
+  threshold for spike#  109  is  -0.999337   at t=  9.50349
+  threshold for spike#  110  is  -0.119534   at t=  9.58427
+  threshold for spike#  111  is  -8.50637   at t=  9.67401
+  threshold for spike#  112  is  -6.84997   at t=  9.7076
+  threshold for spike#  113  is  10.3163   at t=  9.77144
+  threshold for spike#  114  is  16.8369   at t=  9.85446
+  threshold for spike#  115  is  -7.56114   at t=  9.93787
+  threshold for spike#  116  is  -17.42   at t=  9.97203
+¥analyze_train()
+  ok
+  ad1_11;
+  1  traces on graph
+  number of APs fired is:   1
+  threshold for spike#  1  is  -60.7872   at t=  17.4581
+¥MakePhaseplane(11)
+¥MakePhaseplane(16)
+¥MakePhaseplane(21)
+¥MakePhaseplane(24)
+¥ShowInfo
+¥Display ad1_11
+¥Display ad1_16
+¥Display ad1_21
+¥Display ad1_24
+¥Label left "dV/dt (mV/msec)"
+¥Label bottom "Membrane Potential (mV)"
+¥ModifyGraph mode=4
+¥ModifyGraph mskip=20
+¥ModifyGraph mskip=10,rgb=(1,16019,65535)
+¥Tag/C/N=text0 ad1_11d, 0
+¥Tag/K/N=text0
+¥TextBox/C/N=text0/A=MC
+¥Tag/C/N=text0/L=2 ad1_11d, 0
+¥Tag/K/N=text0
+¥TextBox/C/N=text0/A=MC "Maximum dV/dt"
+¥TextBox/C/N=text1/A=MC "Spike Height"
+¥TextBox/C/N=text2/A=MC "20 mV/msec"
+¥Tag/C/N=text3/L=1 ad1_11d, 0
+¥Tag/K/N=text3
+¥ShowInfo
+¥Tag/C/N=text3 ad1_11d, 0
+¥Tag/K/N=text3
+¥Tag/C/N=text0/L=2 ad1_11d, 0
+¥Tag/C/N=text0 ad1_11d, 5
+¥Tag/C/N=text0 ad1_11d, 29.99
+¥Tag/C/N=text0 ad1_11d, 20
+¥Edit/K=0 root:ad1_11;DelayUpdate
+¥Edit/K=0 root:ad1_11d;DelayUpdate
+¥Tag/C/N=text0 ad1_11d, 16.68
+¥Tag/C/N=text0 ad1_11d, 19.44
+¥Tag/C/N=text0 ad1_11d, 19.43
+¥Tag/C/N=text1/L=2 ad1_11d, 19.77
+¥Tag/C/N=text0 ad1_11d, 19.43,"Maximum dV/dt\r= 503.75 mV/msec"
+¥Tag/C/N=text1 ad1_11d, 19.77,"Spike Height\r= 60.15 mV/msec"
+¥TextBox/C/N=text2 "16.25 mV/msec"
+¥Tag/C/N=text2/L=2 ad1_11d, 19.14
+¥ShowInfo
+¥Tag/C/N=text2 ad1_11d, 19.14,"20 mV/msec"
+¥Tag/C/N=text2 ad1_11d, 19.12
+¥SavePICT/E=-6/B=288 as "wave11Phase-plane.jpg"
+¥ShowInfo
+¥Tag/C/N=text0 ad1_16d, 0,"Maximum dV/dt \r= 508.13 mV/ms"
+¥Tag/C/N=text0 ad1_16d, 18.37
+¥Tag/C/N=text1 ad1_16d, 18.64,"Spike Height\r= 59.266 mV"
+¥Label bottom "Membrane Potential (mV)"
+¥Label left "dV/dt (mV/ms)"
+¥Tag/C/N=text2 ad1_16d, 18.82,"20 mV/msec"
+¥Tag/C/N=text2 ad1_16d, 17.42
+¥Tag/C/N=text2 ad1_16d, 18.05
+¥ModifyGraph mode=4,mskip=20,rgb=(1,16019,65535)
+¥ModifyGraph mskip=10
+¥SavePICT/E=-6/B=288 as "wave16Phase-Plane.jpg"
+¥Tag/C/N=text0 ad1_21d, 0,"Maximum dV/dt"
+¥ShowInfo
+¥Tag/C/N=text0 ad1_21d, 0,"Maximum dV/dt\r= 476.72 mV/msec"
+¥Tag/C/N=text0 ad1_21d, 20.48
+¥ModifyGraph mode=4,mskip=10,rgb=(1,16019,65535)
+¥Tag/C/N=text1 ad1_21d, 0,"Spike Height\r= 61.25 mV"
+¥Tag/C/N=text1 ad1_21d, 20.82
+¥Tag/C/N=text2 ad1_21d, 20.02,"20 mV/msec"
+¥Label bottom "Membrane Potential (mV)"
+¥Label left "dV/dt (mV/msec)"
+¥SavePICT/E=-6/B=288 as "wave21phase-plane.jpg"
+¥Tag/C/N=text0 ad1_24d, 0,"Maximum dV/dt\r= 509.84 mV/msec"
+¥Tag/C/N=text0 ad1_24d, 19.95
+¥Tag/C/N=text1 ad1_24d, 20.25
+¥Tag/C/N=text1 ad1_24d, 20.25,"Spike Height\r= 61.65 mV"
+¥Tag/C/N=text2 ad1_24d, 19.66,"20 mV/msec"
+¥ModifyGraph mode=4,mskip=10,rgb=(0,0,65535)
+¥SavePICT/E=-6/B=288 as "wave24phase-plane.jpg"
+¥Display ad1_28
+¥MakePhaseplane(28)
+¥ShowInfo
+¥Tag/C/N=text0 ad1_28d, 0.12,"12.188 mV/sec"
+¥Tag/C/N=text0 ad1_28d, 67.34
+¥Tag/C/N=text1 ad1_28d, 67.6,"Maximum dV/dt\r= 478.91 mV/msec"
+¥Tag/C/N=text2 ad1_28d, 67.93,"Spike Height\r= 59.784 mV/msec"
+¥ModifyGraph mode=4,mskip=10,rgb=(1,16019,65535)
+¥Label left "dV/dt (mV/msec)"
+¥Label bottom "Membrane Potential (mV)"
+¥SavePICT/E=-6/B=288 as "wave24Phase-plane.jpg"

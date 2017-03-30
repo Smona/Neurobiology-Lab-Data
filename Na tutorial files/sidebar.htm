@@ -1,0 +1,81 @@
+
+<style type="text/css">
+	@import "../../../../common/css/sidebar.css";
+</style>
+
+<script type="text/javascript">
+function toggleExpand(divname, arrowname)
+{
+	if (document.getElementById(divname).style.display=='block')
+	{
+		document.getElementById(divname).style.display='none';
+		document.getElementById(arrowname).src='../../../../common/ui_images/nia_up.gif';
+	} else {
+		document.getElementById(divname).style.display='block';
+		document.getElementById(arrowname).src='../../../../common/ui_images/nia_down.gif';
+		
+		// experiments section is special
+		if (divname == 'children1001'){
+			parent.frames['content'].location='tutorial.htm#experiments';
+		}
+	}
+	
+}
+</script>
+<body>
+	<div>
+	
+	<div class="backlink">
+	<a href="../../splash.htm" target="_top" class="mainPageLink">&laquo; NIA2 Homepage</a></div>
+	
+	<div class="backlink">
+	<a href="../list.htm" target="_top" class="mainPageLink">&laquo; Tutorials List</a></div>
+	
+	<div class="sidebarBox">
+		<div class="sidebarBoxTitle">
+			Current Tutorial
+		</div>
+		<div class="sidebarBoxContent">
+			<div style="padding:5px;font-weight:bold;">The Na Action Potential</div>
+			<ul class="staticUl">
+				<li><a href="tutorial.htm#introduction" target="content">Introduction</a></li>
+				<li><a href="tutorial.htm#goals" target="content">Goals</a></li>
+				<li><a href="./../../nrm/apna/apna.nrm">Start the Simulation</a></li>
+				<li><a href="tutorial.htm#panelsDescription" target="content">Panels & Graphs</a><br />
+			</ul>
+			<div id="experimentsList">
+				<div><a href="javascript:toggleExpand('children1001', 'arrow1001');"><img src="../../../../common/ui_images/nia_down.gif" id="arrow1001" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children1001', 'arrow1001');"><b>Experiments...</b></a><div id="children1001" style="display:block"><ul class="expandingUl"><li><a href="tutorial.htm#experiments" target="content">Generate the AP</a></li><li><a href="tutorial.htm#experiment1" target="content">The Na current</a></li><li><a href="tutorial.htm#experiment3" target="content">Change the temperature</a></li><li><a href="tutorial.htm#experiment4" target="content">Apply anesthetics</a></li><li><a href="tutorial.htm#experiment5" target="content">Apply TTX</a></li><li><a href="tutorial.htm#experiment6" target="content">Refractory period</a></li></ul></div></div>
+			</div>			
+		</div>
+	</div>
+		
+	<div class="sidebarBox">
+		<div class="sidebarBoxTitle">
+			Reference
+		</div>
+		<div class="sidebarBoxContent">
+				<div><a href="javascript:toggleExpand('children0', 'arrow0');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow0" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children0', 'arrow0');"><b>What is . . .</b></a><div id="children0" style="display:none"><ul class="expandingUl"><li><a href="../../explanations/what_is/what_is_nrn.htm" target="content">What is NEURON?</a></li><li><a href="../../explanations/what_is/patch.htm" target="content">What is a patch?</a></li><li><a href="../../explanations/what_is/what_is_capacitance.htm" target="content">What is capacitance?</a></li><li><a href="../../explanations/what_is/conductance.htm" target="content">What is conductance?</a></li><li><a href="../../explanations/what_is/permeability.htm" target="content">What is permeability?</a></li><li><a href="../../explanations/what_is/leak.htm" target="content">What is leakage?</a></li><li><a href="../../explanations/what_is/driving_force.htm" target="content">What is driving force?</a></li><li><a href="../../explanations/what_is/equilib_pots.htm" target="content">What is an equilibrium potential?</a></li><li><a href="../../explanations/what_is/regenerative_response.htm" target="content">What is a regenerative response?</a></li><li><a href="../../explanations/what_is/voltage_clamping.htm" target="content">What is a voltage clamp?</a></li><li><a href="../../explanations/what_is/lambda.htm" target="content">What is the length constant?</a></li><li><a href="../../explanations/what_is/what_is_time_constant.htm" target="content">What is the time constant?</a></li><li><a href="../../explanations/what_is/what_is_myelin.htm" target="content">What is myelin?</a></li><li><a href="../../explanations/what_is/what_is_alphasynapse.htm" target="content">What is an alpha synapse?</a></li><li><a href="../../explanations/what_is/what_are_m_n_h.htm" target="content">What are m, n, and h?</a></li></ul></div></div>
+
+				<a href="../../equations/hh/equivalent_circuit.htm" target="content"><img src="../../../../common/ui_images/square_bull.gif" style="position:relative;top:2px;" border="0" />&nbsp;Interactive Equivalent Circuit</a><br />
+				<a href="../../pdf/list_of_pdfs.htm" target="content"><img src="../../../../common/ui_images/square_bull.gif" style="position:relative;top:2px;" border="0" />&nbsp;PDFs of Original Papers</a><br />
+		</div>
+	</div>
+
+	<div class="sidebarBox">
+		<div class="sidebarBoxTitle">
+			Help
+		</div>
+		<div class="sidebarBoxContent">
+			
+			<div><a href="javascript:toggleExpand('children1000', 'arrow1000');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow1000" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children1000', 'arrow1000');"><b>Help with...</b></a><div id="children1000" style="display:none"><ul class="expandingUl"><div><a href="javascript:toggleExpand('children2', 'arrow2');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow2" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children2', 'arrow2');"><b>Panel and Graph Manager</b></a><div id="children2" style="display:none"><ul class="expandingUl"><li><a href="../../help/pg_manager.htm" target="content">The Panel and Graph Manager</a></li></ul></div></div><div><a href="javascript:toggleExpand('children3', 'arrow3');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow3" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children3', 'arrow3');"><b>Running simulations</b></a><div id="children3" style="display:none"><ul class="expandingUl"><li><a href="../../help/run_control.htm" target="content">Run Control</a></li><li><a href="../../help/reset.htm" target="content">What is "Reset"?</a></li><li><a href="../../help/continuefor.htm" target="content">What is "Continue for (ms)"?</a></li><li><a href="../../help/change_x_axis.htm" target="content">How do I change the total time on the x-axis?</a></li><li><a href="../../help/temp_limits.htm" target="content">What is the temperature range for simulations?</a></li></ul></div></div><div><a href="javascript:toggleExpand('children4', 'arrow4');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow4" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children4', 'arrow4');"><b>Stimulating</b></a><div id="children4" style="display:none"><ul class="expandingUl"><li><a href="../../help/stimulus_control.htm" target="content">The Stimulus Control panel</a></li><li><a href="../../help/iclamp.htm" target="content">What is "IClamp"?</a></li><li><a href="../../help/vclamp.htm" target="content">What is "VClamp"?</a></li><li><a href="../../help/vcfamily.htm" target="content">What is "VClamp" Family?</a></li><li><a href="../../help/trode_location.htm" target="content">What is "Location"?</a></li><li><a href="../../help/line_and_ball.htm" target="content">What are the line and the blue ball?</a></li><li><a href="../../help/red_line.htm" target="content">Why is part of the line red?</a></li><li><a href="../../help/2_stim_panels_open.htm" target="content">What if 2 Stimulus Control panels are open?</a></li></ul></div></div><div><a href="javascript:toggleExpand('children5', 'arrow5');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow5" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children5', 'arrow5');"><b>Recording</b></a><div id="children5" style="display:none"><ul class="expandingUl"><li><a href="../../help/plotting_windows.htm" target="content">The graphs</a></li><li><a href="../../help/crosshairs.htm" target="content">How do I measure x-y values on traces?</a></li><li><a href="../../help/manage_plots.htm" target="content">How do I store and erase traces?</a></li><li><a href="../../help/manage_plots.htm" target="content">How do I change the gain of the graph?</a></li><li><a href="../../help/deleting_trace.htm" target="content">How do I delete an individual trace?</a></li></ul></div></div><div><a href="javascript:toggleExpand('children6', 'arrow6');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow6" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children6', 'arrow6');"><b>Changing parameters</b></a><div id="children6" style="display:none"><ul class="expandingUl"><li><a href="../../help/parameters_panel.htm" target="content">The parameters panels</a></li><li><a href="../../help/change_parameter_values.htm" target="content">Changing parameter values</a></li><li><a href="../../help/cursor_in_field.htm" target="content">Why won't my values change?</a></li></ul></div></div><div><a href="javascript:toggleExpand('children7', 'arrow7');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow7" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children7', 'arrow7');"><b>Printing</b></a><div id="children7" style="display:none"><ul class="expandingUl"><li><a href="../../help/printing.htm" target="content">How to print panels and graphs</a></li></ul></div></div><div><a href="javascript:toggleExpand('children8', 'arrow8');"><img src="../../../../common/ui_images/nia_up.gif" id="arrow8" class="toggleArrow"  /></a>&nbsp;<a href="javascript:toggleExpand('children8', 'arrow8');"><b>Exporting</b></a><div id="children8" style="display:none"><ul class="expandingUl"><li><a href="../../help/export_graph.htm" target="content">How do I save a graph for inserting into PPT?</a></li></ul></div></div></ul></div></div>
+		</div>
+	</div>
+	</div>
+	
+	<div style="display:none;">
+	<form action="#" method="get" accept-charset="utf-8">
+		<input type="hidden" name="tutorialName" value="apna" id="tutorialName" />
+	</form>
+	</div>
+	
+</body>
